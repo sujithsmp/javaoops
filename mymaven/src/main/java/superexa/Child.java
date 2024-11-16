@@ -6,12 +6,12 @@ public class Child extends Parent
 	public void set(int n)
 	{
 		super.number=n;
-		number=n;
+		//number=n;
 	}
 	
 	public void displaychild()
 	{
-		System.out.println("Parent class"+number);
+		System.out.println("child class"+number);
 	}
 
 	public static void main(String[] args)
